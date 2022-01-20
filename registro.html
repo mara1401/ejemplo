@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>Formulario</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="estilos.css">
+  </head>
+
+  <body>
+    <header>
+      <h1>Registro de Usuario</h1>
+    </header>
+    <section>
+      <h2>Formulario</h2>
+      <form id="form_nuevo_usuario">
+          <label for="dato_nombre_usuario">Nombre:</label><br>
+          <input type="text" id="dato_nombre_usuario" name="dato_nombre_usuario"><br><br>
+          <label for="dato_edad_usuario">Edad:</label><br>
+          <input type="number" id="dato_edad_usuario" name="Edad" min="0"><br>
+          <label for="password">Contraseña:</label><br>
+          <input type="pass" id="dato_contrasena" name="pass" min="0"><br>
+          <button id="enviar_registro">
+            Enviar Registro
+          </button>
+      </form>
+    </section>
+    <footer>Pie de página</footer>
+  </body>
+</html>

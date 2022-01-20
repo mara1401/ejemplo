@@ -1,0 +1,146 @@
+/* Esta regla le aplica a todos los elementos */
+* {
+    color:  black;
+    font-family: sans-serif;
+    font-weight:500
+}
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+header {
+    background-color:rgb(9, 10, 10);
+    color: white;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+h1{
+    color:white;
+    font-family: serif;
+    font-size: 200%;
+    text-align: center;
+}
+
+section {
+    color: white;
+    background-color: grey;
+    width: 50%;
+    border: 2px solid black;
+    padding: 30px;
+    margin: 15px auto;
+}
+
+article {
+    width: 50%;
+    padding: 30px;
+    margin: 15px auto;
+}
+
+figcaption {
+    text-align: center;
+}
+
+/* Estilos para el nav */
+#horizontal_navbar {
+    background-color: rgb(13, 13, 14);
+    color:white;
+}
+
+#horizontal_navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#horizontal_navbar ul li {
+    margin: 0 10px 0 10px;
+}
+
+#horizontal_navbar ul li a {
+    font-size: 18px;
+}
+
+#horizontal_navbar ul li a:hover {
+    color: yellow;
+}
+
+#horizontal_navbar ul li button a:hover {
+    color: initial;
+}
+
+#horizontal_navbar ul li button {
+    background: #a6ab00;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#horizontal_navbar ul li button:hover {
+    background: #d0d700;
+}
+
+#boton_registro_usuario {
+    color: black;
+    padding: 10px 20px;
+}
+
+#horizontal_navbar img {
+    width: 80px;
+    height: 80px;
+    padding: 1px;
+}
+/* Estilos para el nav */
+
+h2 {
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+a {
+    color:white;
+    display: block;
+    text-decoration: none;
+}
+
+img {
+    display:inline;
+    width:100%;
+}
+
+input {
+    padding: 5px;
+}
+
+input[type="submit"] {
+    padding: 15px;
+    background-color:grey;
+    display: block;
+    color: white;
+    margin: 10px;
+    font-size: larger;
+    border-radius: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: yellow;
+}
+
+footer {
+    background-color: sandybrown;
+    text-align: center;
+    padding: 20px 0 15px 0;
+}
+
+#form_nuevo_usuario{
+    background-color:rgb(58, 53, 53);
+}
+label{
+    color: blanchedalmond;
+}
+
+#dato_nombre_usuario{
+    background-color: rgb(133, 168, 231);
+}
